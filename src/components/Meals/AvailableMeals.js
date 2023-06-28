@@ -29,9 +29,7 @@ const DUMMY_MEALS = [
         price: 18.99,
     },
 ];
-
 const AvailableMeals = () => {
-
     const mealsList = DUMMY_MEALS.map((meal) => {
         return(
             <MealItem
@@ -44,7 +42,6 @@ const AvailableMeals = () => {
 
     })
 
-
     return (
         <section className={classes.meals}>
             <Card>
@@ -52,7 +49,6 @@ const AvailableMeals = () => {
                 {mealsList}
                  </ul>
             </Card>
-
         </section>
     );
 };

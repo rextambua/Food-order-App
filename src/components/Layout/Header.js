@@ -11,7 +11,7 @@ import HeaderCardButton from "./HeaderCardButton";
       <React.Fragment>
           <header className={classes.header}>
             <h1> Enjoy Meals</h1>
-              <HeaderCardButton> Cart </HeaderCardButton>
+              <HeaderCardButton onClick={props.onShowCart}> Cart </HeaderCardButton>
           </header>
           <div className={classes['main-image']}>
             <img src={mealsImage} alt='A table full of delicious food'/>
